@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Apex Haul: 3D Truck Simulator</title>
+  <meta name="description" content="Privacy Policy for Apex Haul: 3D Truck Simulator by Red Pen Studio.">
+  <meta name="theme-color" content="#0f1115">
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --text: #1b1f27;
+      --muted: #5b6474;
+      --border: #e3e6ec;
+      --accent: #e8590c;
+      --accent-soft: #fff1e8;
+      --radius: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --surface: #171a21;
+        --text: #e8eaef;
+        --muted: #9aa3b2;
+        --border: #262b35;
+        --accent: #ff7a2f;
+        --accent-soft: #2a1a10;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-text-size-adjust: 100%;
+    }
+    a { color: var(--accent); }
+    header.hero {
+      background: linear-gradient(135deg, #12151c 0%, #1f2530 60%, #3a2414 100%);
+      color: #fff;
+      padding: 56px 16px 72px;
+      text-align: center;
+    }
+    .hero .studio {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #ffb38a;
+      margin-bottom: 10px;
+    }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(26px, 6vw, 40px); line-height: 1.2; }
+    .hero p { margin: 0; color: #c9ced8; }
+    main { max-width: 860px; margin: -40px auto 0; padding: 0 16px 48px; }
+    section.doc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px clamp(18px, 5vw, 44px);
+      margin-bottom: 28px;
+      scroll-margin-top: 72px;
+    }
+    section.doc > h2 { margin: 0 0 4px; font-size: clamp(22px, 4.5vw, 28px); }
+    .meta { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+    h3 { font-size: 18px; margin: 32px 0 8px; scroll-margin-top: 72px; }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    .callout {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 18px 0;
+    }
+    .callout strong { color: var(--accent); }
+    .table-wrap { overflow-x: auto; margin: 12px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 520px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+    .toc { columns: 2; column-gap: 24px; padding-left: 20px; font-size: 15px; }
+    @media (max-width: 560px) { .toc { columns: 1; } }
+    .contact-card {
+      display: grid;
+      gap: 6px;
+      background: var(--accent-soft);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      margin-top: 12px;
+    }
+    .contact-card .label { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+    .contact-card .email { font-size: 18px; font-weight: 700; word-break: break-all; }
+    footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 40px; }
+      .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 16px;
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .topbar .links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      white-space: nowrap;
+    }
+    .pill:hover { border-color: var(--accent); color: var(--accent); }
+    .pill[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .hub {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .hub a {
+      display: block;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      transition: border-color .15s, transform .15s;
+    }
+    .hub a:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .hub .icon { font-size: 28px; line-height: 1; }
+    .hub h2 { margin: 12px 0 6px; font-size: 19px; }
+    .hub p { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
+    .hub .go { color: var(--accent); font-weight: 700; font-size: 14px; }
+    .back { display: inline-block; margin-top: 8px; font-weight: 600; text-decoration: none; }
+    main { margin-top: 28px; }
+    @media (max-width: 560px) {
+      .topbar { position: static; justify-content: center; }
+      .topbar .links { justify-content: center; }
+      .pill { font-size: 13px; padding: 7px 12px; }
+    }
+    footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-bottom: 8px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="studio">Red Pen Studio</span>
+  <h1>Apex Haul: 3D Truck Simulator</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<nav class="topbar" aria-label="Site">
+  <a class="pill" href="index.html">&larr; Back to home</a>
+  <div class="links">
+    <a class="pill" href="privacy.html" aria-current="page">Privacy Policy</a>
+    <a class="pill" href="terms.html">Terms of Service</a>
+    <a class="pill" href="index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="doc" id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="meta">Effective date: October 30, 2026</p>
+
+    <p>This Privacy Policy explains how <strong>Red Pen Studio</strong> ("we", "us", "our") handles information when you play <strong>Apex Haul: 3D Truck Simulator</strong> (the "Game") on Android devices. By installing or playing the Game, you agree to the practices described here.</p>
+
+    <div class="callout">
+      <strong>The short version:</strong> we do not ask for your name, email address, phone number or precise location. We use an anonymous account to save your progress, show ads through Google AdMob, and process purchases through Google Play. <strong>We never sell your personal data, and we do not share sensitive personal data with anyone.</strong>
+    </div>
+
+    <ol class="toc">
+      <li><a href="#p-collect">Information we collect</a></li>
+      <li><a href="#p-use">How we use information</a></li>
+      <li><a href="#p-third">Third-party services</a></li>
+      <li><a href="#p-ads">Advertising &amp; consent</a></li>
+      <li><a href="#p-purchases">In-app purchases</a></li>
+      <li><a href="#p-sharing">Selling &amp; sharing</a></li>
+      <li><a href="#p-children">Age requirement</a></li>
+      <li><a href="#p-retention">Retention &amp; deletion</a></li>
+      <li><a href="#p-rights">Your rights &amp; choices</a></li>
+      <li><a href="#p-security">Security</a></li>
+      <li><a href="#p-changes">Changes to this policy</a></li>
+    </ol>
+
+    <h3 id="p-collect">1. Information we collect</h3>
+    <p>We only collect what the Game needs to run, save your progress, show ads and process purchases.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Type</th><th>What it is</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Anonymous account ID</td>
+            <td>A random identifier created by Firebase Anonymous Authentication. It is not linked to your name, email or phone number.</td>
+            <td>Identify your save data</td>
+          </tr>
+          <tr>
+            <td>Game progress</td>
+            <td>Trucks owned, upgrades, in-game currency balances, completed contracts, settings and similar gameplay data stored in Cloud Firestore.</td>
+            <td>Save and restore progress</td>
+          </tr>
+          <tr>
+            <td>Device &amp; advertising data</td>
+            <td>Advertising ID, device model, OS version, language, IP address (used to estimate approximate region) and ad interaction data, collected by Google AdMob.</td>
+            <td>Serve and measure ads, prevent fraud</td>
+          </tr>
+          <tr>
+            <td>Purchase records</td>
+            <td>Purchase tokens and order identifiers provided by Google Play Billing. We never see or store your card or bank details.</td>
+            <td>Deliver and restore purchases</td>
+          </tr>
+          <tr>
+            <td>Diagnostics</td>
+            <td>Crash and performance information collected by Google Play (Android Vitals) and our service providers.</td>
+            <td>Fix bugs and improve stability</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We do <strong>not</strong> collect your name, email address, contacts, photos, microphone audio, precise GPS location, or any sensitive personal data (such as health, financial, biometric, religious or political information).</p>
+
+    <h3 id="p-use">2. How we use information</h3>
+    <ul>
+      <li>To run the Game and keep your progress saved across sessions and reinstalls.</li>
+      <li>To deliver in-game items you buy and restore previous purchases.</li>
+      <li>To show rewarded and interstitial ads, and to cap how often ads appear.</li>
+      <li>To detect fraud, cheating and abuse of the Game or its economy.</li>
+      <li>To diagnose crashes and improve performance and gameplay.</li>
+      <li>To comply with legal obligations.</li>
+    </ul>
+
+    <h3 id="p-third">3. Third-party services</h3>
+    <p>The Game relies on the following services. Each processes data under its own privacy policy:</p>
+    <ul>
+      <li><strong>Google AdMob</strong>, for rewarded video ads and interstitial ads. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data from partner apps</a></li>
+      <li><strong>Google Firebase</strong> (Anonymous Authentication and Cloud Firestore), for anonymous sign-in and cloud save storage. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy &amp; Security</a></li>
+      <li><strong>Google Play Billing</strong>, for in-app purchases. <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Payments Privacy Notice</a></li>
+      <li><strong>Google Play Services</strong>, which may provide sign-in, achievements and app stability reporting. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    </ul>
+
+    <h3 id="p-ads">4. Advertising &amp; consent</h3>
+    <p>The Game is free to play and supported by ads served through Google AdMob:</p>
+    <ul>
+      <li><strong>Rewarded ads</strong> are always optional. You choose to watch one in exchange for an in-game reward, such as doubled contract payouts, an emergency refuel or a tow and repair.</li>
+      <li><strong>Interstitial ads</strong> are full-screen ads shown at natural breaks, such as returning to the garage after a contract. They are not shown during the opening tutorial missions and are rate-limited.</li>
+    </ul>
+    <p>Where required by law (for example in the European Economic Area, the United Kingdom and Switzerland), the Game uses Google's User Messaging Platform to ask for your consent before ads are personalised. You can change your choice at any time from the Game's settings. You can also reset or delete your Advertising ID, or opt out of ad personalisation, in your Android device settings under <em>Settings &gt; Privacy &gt; Ads</em> (wording may vary by device).</p>
+
+    <h3 id="p-purchases">5. In-app purchases</h3>
+    <p>All payments are processed by Google Play. Red Pen Studio does not receive or store your payment card, bank details or billing address. We receive only the information needed to confirm and deliver your purchase, such as an order ID and product ID.</p>
+
+    <h3 id="p-sharing">6. Selling &amp; sharing of data</h3>
+    <div class="callout">
+      <strong>We do not sell your personal data.</strong> We do not share sensitive personal data with anyone, and we do not rent or trade player information to data brokers or marketers.
+    </div>
+    <p>Information is only disclosed to the service providers listed above so they can provide their services to us, when required by law or a valid legal request, or to protect the rights, safety and security of our players and the Game. If Red Pen Studio is involved in a merger or acquisition, information may be transferred as part of that transaction under the same protections described here.</p>
+
+    <h3 id="p-children">7. Age requirement (13+)</h3>
+    <p>The Game is strictly designed for players <strong>aged 13 and above</strong>. It is not directed at children under 13, and we do not knowingly collect personal data from children under 13. If you are a parent or guardian and believe your child under 13 has used the Game and provided personal data, please <a href="index.html#contact">contact us</a> and we will delete it promptly.</p>
+    <p>If you are under the age of majority where you live, please review this policy with a parent or guardian, and get their permission before making any purchase.</p>
+
+    <h3 id="p-retention">8. Data retention &amp; deletion</h3>
+    <p>Game progress linked to your anonymous account is kept for as long as you play, and for a reasonable period afterwards so you can return to your save. Because the account is anonymous, uninstalling the Game or clearing its data may permanently remove your access to cloud saves.</p>
+    <p>You can ask us to delete your game data at any time by <a href="index.html#contact">contacting us</a>. Please include your in-game Player ID (shown in the Game's settings) so we can locate your data. We will process your request within 30 days.</p>
+
+    <h3 id="p-rights">9. Your rights &amp; choices</h3>
+    <p>Depending on where you live (including under the GDPR, UK GDPR, and California privacy laws such as the CCPA/CPRA), you may have the right to access, correct, delete or receive a copy of your personal data, to object to or restrict certain processing, and to withdraw consent. We do not sell personal data. Where ad personalisation through Google AdMob counts as "sharing" under California law, you can opt out as described in Section 4. To exercise any right, <a href="index.html#contact">contact us</a>. You also have the right to complain to your local data protection authority.</p>
+
+    <h3 id="p-security">10. Security</h3>
+    <p>Data is transmitted over encrypted connections (HTTPS/TLS) and stored with Google Cloud infrastructure protected by access controls and security rules. No method of transmission or storage is completely secure, but we take reasonable measures to protect your information.</p>
+
+    <h3 id="p-changes">11. Changes to this policy</h3>
+    <p>We may update this Privacy Policy from time to time. When we do, we will change the effective date at the top of this page and, for significant changes, notify you in the Game. Continuing to play after an update means you accept the revised policy.</p>
+  </section>
+
+  <p style="text-align:center"><a class="back" href="index.html">&larr; Back to home</a></p>
+
+</main>
+
+<footer>
+  <nav aria-label="Footer">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+  &copy; 2026 Red Pen Studio. All rights reserved.
+</footer>
+
+</body>
+</html>
